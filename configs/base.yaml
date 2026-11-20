@@ -1,0 +1,26 @@
+# Base config (docs/CODE_SPEC.md section 5). Every key is overridable with --set dotted.key=value
+# or by layering an override file: --config configs/base.yaml --config configs/<override>.yaml
+out_dir: results
+seed: 0
+tag: ""
+model: {d_model: 256, n_layers: 2, n_heads: 8, d_mlp: 1024, pe: sinusoidal, max_len: 512}
+data:  {schedule: R, groups: {A: [5, 10], B: [11, 15], C: [16, 20]}, mix: lengths}
+train: {steps: 20000, batch_size: 256, lr: 5.0e-4, warmup_steps: 1000, weight_decay: 0.0,
+        betas: [0.9, 0.98], grad_clip: 1.0, device: auto, log_every: 100,
+        loss_norm: example}   # example: each example weighs 1/B (its mean token CE); token: per-token mean
+phase2: {steps: 5000, reset_optimizer: false}       # steps: 0 disables Phase 2
+eval:
+  every: 1000                   # learning-curve eval interval (steps)
+  val_per_length: 100           # val set = uniform_set(L, n, VAL_SEED) for train lengths
+  curve_ood_lengths: [22, 25, 30]   # also tracked during training (ignored when id_only)
+  test_lengths: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+                 21, 22, 23, 24, 25, 30, 40, 50]
+  test_per_length: 1000
+  rep_lengths: [10, 20, 30, 40]
+  rep_rs: [2, 3, 4, 5]
+  rep_per_set: 500
+  batch_size: 250               # not 1000: see docs/CODE_SPEC.md, implementation notes
+  decode_vocab: values
+  n_samples: 20
+  id_only: false                # TUNING MODE: if true, no length > max train length is ever evaluated
+save_checkpoints: true

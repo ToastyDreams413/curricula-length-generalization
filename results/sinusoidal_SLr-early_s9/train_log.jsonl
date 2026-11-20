@@ -1,0 +1,277 @@
+{"type": "eval", "phase": 1, "step": 0, "val": {"5": 0.0, "6": 0.0, "7": 0.0, "8": 0.0, "9": 0.0, "10": 0.0, "11": 0.0, "12": 0.0, "13": 0.0, "14": 0.0, "15": 0.0, "16": 0.0, "17": 0.0, "18": 0.0, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.0, "B": 0.0, "C": 0.0}, "val_token_acc": 0.009014039900480497, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 100, "loss": 4.60305419921875, "lr": 4.9500000000000004e-05, "tokens_nonpad": 409998, "tokens_padded": 537600, "examples": 25600}
+{"type": "loss", "phase": 1, "step": 200, "loss": 4.422821044921875, "lr": 9.95e-05, "tokens_nonpad": 818666, "tokens_padded": 1075200, "examples": 51200}
+{"type": "loss", "phase": 1, "step": 300, "loss": 4.139070739746094, "lr": 0.0001495, "tokens_nonpad": 1228168, "tokens_padded": 1612800, "examples": 76800}
+{"type": "loss", "phase": 1, "step": 400, "loss": 3.785960693359375, "lr": 0.0001995, "tokens_nonpad": 1636558, "tokens_padded": 2150400, "examples": 102400}
+{"type": "loss", "phase": 1, "step": 500, "loss": 3.5617474365234374, "lr": 0.0002495, "tokens_nonpad": 2045938, "tokens_padded": 2688000, "examples": 128000}
+{"type": "loss", "phase": 1, "step": 600, "loss": 3.3602175903320313, "lr": 0.00029949999999999996, "tokens_nonpad": 2455964, "tokens_padded": 3225600, "examples": 153600}
+{"type": "loss", "phase": 1, "step": 700, "loss": 2.5555674743652346, "lr": 0.00034950000000000004, "tokens_nonpad": 2865934, "tokens_padded": 3763200, "examples": 179200}
+{"type": "loss", "phase": 1, "step": 800, "loss": 0.8564530181884765, "lr": 0.0003995, "tokens_nonpad": 3275368, "tokens_padded": 4300800, "examples": 204800}
+{"type": "loss", "phase": 1, "step": 900, "loss": 0.3163582229614258, "lr": 0.00044950000000000003, "tokens_nonpad": 3684928, "tokens_padded": 4838400, "examples": 230400}
+{"type": "loss", "phase": 1, "step": 1000, "loss": 0.23290679931640626, "lr": 0.0004995, "tokens_nonpad": 4095638, "tokens_padded": 5376000, "examples": 256000}
+{"type": "eval", "phase": 1, "step": 1000, "val": {"5": 0.83, "6": 0.85, "7": 0.77, "8": 0.62, "9": 0.62, "10": 0.51, "11": 0.01, "12": 0.0, "13": 0.0, "14": 0.0, "15": 0.0, "16": 0.0, "17": 0.0, "18": 0.0, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.7000000000000001, "B": 0.002, "C": 0.0}, "val_token_acc": 0.39635868979500466, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 1100, "loss": 0.14569571495056152, "lr": 0.0005, "tokens_nonpad": 4505322, "tokens_padded": 5913600, "examples": 281600}
+{"type": "loss", "phase": 1, "step": 1200, "loss": 0.12528100967407227, "lr": 0.0005, "tokens_nonpad": 4914838, "tokens_padded": 6451200, "examples": 307200}
+{"type": "loss", "phase": 1, "step": 1300, "loss": 0.0889452075958252, "lr": 0.0005, "tokens_nonpad": 5325034, "tokens_padded": 6988800, "examples": 332800}
+{"type": "loss", "phase": 1, "step": 1400, "loss": 0.07806455612182617, "lr": 0.0005, "tokens_nonpad": 5734624, "tokens_padded": 7526400, "examples": 358400}
+{"type": "loss", "phase": 1, "step": 1500, "loss": 0.06504945755004883, "lr": 0.0005, "tokens_nonpad": 6143758, "tokens_padded": 8064000, "examples": 384000}
+{"type": "loss", "phase": 1, "step": 1600, "loss": 0.06491281509399414, "lr": 0.0005, "tokens_nonpad": 6554020, "tokens_padded": 8601600, "examples": 409600}
+{"type": "loss", "phase": 1, "step": 1700, "loss": 0.052835521697998045, "lr": 0.0005, "tokens_nonpad": 6963614, "tokens_padded": 9139200, "examples": 435200}
+{"type": "loss", "phase": 1, "step": 1800, "loss": 0.04688858985900879, "lr": 0.0005, "tokens_nonpad": 7374054, "tokens_padded": 9676800, "examples": 460800}
+{"type": "loss", "phase": 1, "step": 1900, "loss": 0.04900384902954102, "lr": 0.0005, "tokens_nonpad": 7782594, "tokens_padded": 10214400, "examples": 486400}
+{"type": "loss", "phase": 1, "step": 2000, "loss": 0.03799454927444458, "lr": 0.0005, "tokens_nonpad": 8192268, "tokens_padded": 10752000, "examples": 512000}
+{"type": "eval", "phase": 1, "step": 2000, "val": {"5": 0.98, "6": 0.98, "7": 0.95, "8": 0.9, "9": 0.88, "10": 0.84, "11": 0.04, "12": 0.0, "13": 0.0, "14": 0.0, "15": 0.0, "16": 0.0, "17": 0.0, "18": 0.0, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.9216666666666667, "B": 0.008, "C": 0.0}, "val_token_acc": 0.4405327332599246, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 2100, "loss": 0.04128389835357666, "lr": 0.0005, "tokens_nonpad": 8602018, "tokens_padded": 11289600, "examples": 537600}
+{"type": "loss", "phase": 1, "step": 2200, "loss": 0.03527280569076538, "lr": 0.0005, "tokens_nonpad": 9011848, "tokens_padded": 11827200, "examples": 563200}
+{"type": "loss", "phase": 1, "step": 2300, "loss": 0.03423105001449585, "lr": 0.0005, "tokens_nonpad": 9421710, "tokens_padded": 12364800, "examples": 588800}
+{"type": "loss", "phase": 1, "step": 2400, "loss": 0.027617030143737793, "lr": 0.0005, "tokens_nonpad": 9831528, "tokens_padded": 12902400, "examples": 614400}
+{"type": "loss", "phase": 1, "step": 2500, "loss": 0.02805995225906372, "lr": 0.0005, "tokens_nonpad": 10241278, "tokens_padded": 13440000, "examples": 640000}
+{"type": "loss", "phase": 1, "step": 2600, "loss": 0.024050376415252685, "lr": 0.0005, "tokens_nonpad": 10650346, "tokens_padded": 13977600, "examples": 665600}
+{"type": "loss", "phase": 1, "step": 2700, "loss": 0.025614261627197266, "lr": 0.0005, "tokens_nonpad": 11060452, "tokens_padded": 14515200, "examples": 691200}
+{"type": "loss", "phase": 1, "step": 2800, "loss": 0.02127459764480591, "lr": 0.0005, "tokens_nonpad": 11469678, "tokens_padded": 15052800, "examples": 716800}
+{"type": "loss", "phase": 1, "step": 2900, "loss": 0.022206807136535646, "lr": 0.0005, "tokens_nonpad": 11878250, "tokens_padded": 15590400, "examples": 742400}
+{"type": "loss", "phase": 1, "step": 3000, "loss": 0.020216572284698486, "lr": 0.0005, "tokens_nonpad": 12288000, "tokens_padded": 16128000, "examples": 768000}
+{"type": "eval", "phase": 1, "step": 3000, "val": {"5": 0.98, "6": 0.97, "7": 0.96, "8": 0.93, "9": 0.95, "10": 0.91, "11": 0.22, "12": 0.0, "13": 0.0, "14": 0.0, "15": 0.0, "16": 0.0, "17": 0.0, "18": 0.0, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.9500000000000001, "B": 0.044, "C": 0.0}, "val_token_acc": 0.45088067060379844, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 3100, "loss": 0.21162776947021483, "lr": 0.0005, "tokens_nonpad": 12825760, "tokens_padded": 16921600, "examples": 793600}
+{"type": "loss", "phase": 1, "step": 3200, "loss": 0.028500463962554932, "lr": 0.0005, "tokens_nonpad": 13363554, "tokens_padded": 17715200, "examples": 819200}
+{"type": "loss", "phase": 1, "step": 3300, "loss": 0.025551731586456298, "lr": 0.0005, "tokens_nonpad": 13901188, "tokens_padded": 18508800, "examples": 844800}
+{"type": "loss", "phase": 1, "step": 3400, "loss": 0.02154980421066284, "lr": 0.0005, "tokens_nonpad": 14437676, "tokens_padded": 19302400, "examples": 870400}
+{"type": "loss", "phase": 1, "step": 3500, "loss": 0.01695819854736328, "lr": 0.0005, "tokens_nonpad": 14975486, "tokens_padded": 20096000, "examples": 896000}
+{"type": "loss", "phase": 1, "step": 3600, "loss": 0.01409513235092163, "lr": 0.0005, "tokens_nonpad": 15515372, "tokens_padded": 20889600, "examples": 921600}
+{"type": "loss", "phase": 1, "step": 3700, "loss": 0.015185964107513428, "lr": 0.0005, "tokens_nonpad": 16051912, "tokens_padded": 21683200, "examples": 947200}
+{"type": "loss", "phase": 1, "step": 3800, "loss": 0.012570480108261109, "lr": 0.0005, "tokens_nonpad": 16587572, "tokens_padded": 22476800, "examples": 972800}
+{"type": "loss", "phase": 1, "step": 3900, "loss": 0.011215517520904541, "lr": 0.0005, "tokens_nonpad": 17124880, "tokens_padded": 23270400, "examples": 998400}
+{"type": "loss", "phase": 1, "step": 4000, "loss": 0.010353071689605713, "lr": 0.0005, "tokens_nonpad": 17660964, "tokens_padded": 24064000, "examples": 1024000}
+{"type": "eval", "phase": 1, "step": 4000, "val": {"5": 1.0, "6": 0.99, "7": 1.0, "8": 0.98, "9": 0.99, "10": 0.98, "11": 0.97, "12": 0.99, "13": 0.94, "14": 0.95, "15": 0.89, "16": 0.64, "17": 0.07, "18": 0.0, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.9899999999999999, "B": 0.9479999999999998, "C": 0.142}, "val_token_acc": 0.8400828576093669, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 4100, "loss": 0.011881451606750488, "lr": 0.0005, "tokens_nonpad": 18198312, "tokens_padded": 24857600, "examples": 1049600}
+{"type": "loss", "phase": 1, "step": 4200, "loss": 0.010558396577835083, "lr": 0.0005, "tokens_nonpad": 18735322, "tokens_padded": 25651200, "examples": 1075200}
+{"type": "loss", "phase": 1, "step": 4300, "loss": 0.009408507347106933, "lr": 0.0005, "tokens_nonpad": 19273322, "tokens_padded": 26444800, "examples": 1100800}
+{"type": "loss", "phase": 1, "step": 4400, "loss": 0.009503492116928101, "lr": 0.0005, "tokens_nonpad": 19810078, "tokens_padded": 27238400, "examples": 1126400}
+{"type": "loss", "phase": 1, "step": 4500, "loss": 0.009665905833244323, "lr": 0.0005, "tokens_nonpad": 20349186, "tokens_padded": 28032000, "examples": 1152000}
+{"type": "loss", "phase": 1, "step": 4600, "loss": 0.005929454565048218, "lr": 0.0005, "tokens_nonpad": 20885406, "tokens_padded": 28825600, "examples": 1177600}
+{"type": "loss", "phase": 1, "step": 4700, "loss": 0.008677581548690796, "lr": 0.0005, "tokens_nonpad": 21424220, "tokens_padded": 29619200, "examples": 1203200}
+{"type": "loss", "phase": 1, "step": 4800, "loss": 0.007233294248580932, "lr": 0.0005, "tokens_nonpad": 21963024, "tokens_padded": 30412800, "examples": 1228800}
+{"type": "loss", "phase": 1, "step": 4900, "loss": 0.007566001415252686, "lr": 0.0005, "tokens_nonpad": 22503232, "tokens_padded": 31206400, "examples": 1254400}
+{"type": "loss", "phase": 1, "step": 5000, "loss": 0.005806641578674316, "lr": 0.0005, "tokens_nonpad": 23040006, "tokens_padded": 32000000, "examples": 1280000}
+{"type": "eval", "phase": 1, "step": 5000, "val": {"5": 0.99, "6": 1.0, "7": 0.99, "8": 0.95, "9": 0.96, "10": 0.96, "11": 0.97, "12": 0.99, "13": 0.96, "14": 0.91, "15": 0.88, "16": 0.85, "17": 0.34, "18": 0.07, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.975, "B": 0.942, "C": 0.252}, "val_token_acc": 0.8838874620686976, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 5100, "loss": 0.007402867674827575, "lr": 0.0005, "tokens_nonpad": 23577630, "tokens_padded": 32793600, "examples": 1305600}
+{"type": "loss", "phase": 1, "step": 5200, "loss": 0.006644386053085327, "lr": 0.0005, "tokens_nonpad": 24114170, "tokens_padded": 33587200, "examples": 1331200}
+{"type": "loss", "phase": 1, "step": 5300, "loss": 0.007235943078994751, "lr": 0.0005, "tokens_nonpad": 24651624, "tokens_padded": 34380800, "examples": 1356800}
+{"type": "loss", "phase": 1, "step": 5400, "loss": 0.004831851422786713, "lr": 0.0005, "tokens_nonpad": 25188928, "tokens_padded": 35174400, "examples": 1382400}
+{"type": "loss", "phase": 1, "step": 5500, "loss": 0.006569162607192993, "lr": 0.0005, "tokens_nonpad": 25725780, "tokens_padded": 35968000, "examples": 1408000}
+{"type": "loss", "phase": 1, "step": 5600, "loss": 0.00444529801607132, "lr": 0.0005, "tokens_nonpad": 26262528, "tokens_padded": 36761600, "examples": 1433600}
+{"type": "loss", "phase": 1, "step": 5700, "loss": 0.006041458249092102, "lr": 0.0005, "tokens_nonpad": 26801394, "tokens_padded": 37555200, "examples": 1459200}
+{"type": "loss", "phase": 1, "step": 5800, "loss": 0.00529602587223053, "lr": 0.0005, "tokens_nonpad": 27340152, "tokens_padded": 38348800, "examples": 1484800}
+{"type": "loss", "phase": 1, "step": 5900, "loss": 0.004158449172973633, "lr": 0.0005, "tokens_nonpad": 27877706, "tokens_padded": 39142400, "examples": 1510400}
+{"type": "loss", "phase": 1, "step": 6000, "loss": 0.005753576755523682, "lr": 0.0005, "tokens_nonpad": 28415982, "tokens_padded": 39936000, "examples": 1536000}
+{"type": "eval", "phase": 1, "step": 6000, "val": {"5": 0.98, "6": 0.99, "7": 0.99, "8": 1.0, "9": 0.99, "10": 0.99, "11": 1.0, "12": 0.98, "13": 0.99, "14": 1.0, "15": 0.98, "16": 0.78, "17": 0.22, "18": 0.05, "19": 0.0, "20": 0.0}, "val_group": {"A": 0.9900000000000001, "B": 0.9899999999999999, "C": 0.21000000000000002}, "val_token_acc": 0.8849176988060743, "curve_ood": {"22": 0.0, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 6100, "loss": 0.014512912034988404, "lr": 0.0005, "tokens_nonpad": 29082562, "tokens_padded": 40985600, "examples": 1561600}
+{"type": "loss", "phase": 1, "step": 6200, "loss": 0.0054635262489318845, "lr": 0.0005, "tokens_nonpad": 29746838, "tokens_padded": 42035200, "examples": 1587200}
+{"type": "loss", "phase": 1, "step": 6300, "loss": 0.005517340302467346, "lr": 0.0005, "tokens_nonpad": 30413242, "tokens_padded": 43084800, "examples": 1612800}
+{"type": "loss", "phase": 1, "step": 6400, "loss": 0.005077717900276184, "lr": 0.0005, "tokens_nonpad": 31081714, "tokens_padded": 44134400, "examples": 1638400}
+{"type": "loss", "phase": 1, "step": 6500, "loss": 0.004621714353561401, "lr": 0.0005, "tokens_nonpad": 31747918, "tokens_padded": 45184000, "examples": 1664000}
+{"type": "loss", "phase": 1, "step": 6600, "loss": 0.004512695074081421, "lr": 0.0005, "tokens_nonpad": 32414646, "tokens_padded": 46233600, "examples": 1689600}
+{"type": "loss", "phase": 1, "step": 6700, "loss": 0.004228165745735169, "lr": 0.0005, "tokens_nonpad": 33079274, "tokens_padded": 47283200, "examples": 1715200}
+{"type": "loss", "phase": 1, "step": 6800, "loss": 0.005113623142242432, "lr": 0.0005, "tokens_nonpad": 33746658, "tokens_padded": 48332800, "examples": 1740800}
+{"type": "loss", "phase": 1, "step": 6900, "loss": 0.004562527537345886, "lr": 0.0005, "tokens_nonpad": 34414006, "tokens_padded": 49382400, "examples": 1766400}
+{"type": "loss", "phase": 1, "step": 7000, "loss": 0.003375025987625122, "lr": 0.0005, "tokens_nonpad": 35082406, "tokens_padded": 50432000, "examples": 1792000}
+{"type": "eval", "phase": 1, "step": 7000, "val": {"5": 1.0, "6": 0.96, "7": 1.0, "8": 1.0, "9": 0.98, "10": 1.0, "11": 0.99, "12": 1.0, "13": 0.98, "14": 1.0, "15": 0.98, "16": 0.99, "17": 0.95, "18": 0.96, "19": 0.96, "20": 0.95}, "val_group": {"A": 0.9899999999999999, "B": 0.9899999999999999, "C": 0.962}, "val_token_acc": 0.9920355070974992, "curve_ood": {"22": 0.71, "25": 0.0, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 7100, "loss": 0.003936839997768402, "lr": 0.0005, "tokens_nonpad": 35747194, "tokens_padded": 51481600, "examples": 1817600}
+{"type": "loss", "phase": 1, "step": 7200, "loss": 0.0038415586948394777, "lr": 0.0005, "tokens_nonpad": 36412282, "tokens_padded": 52531200, "examples": 1843200}
+{"type": "loss", "phase": 1, "step": 7300, "loss": 0.0037161725759506225, "lr": 0.0005, "tokens_nonpad": 37078732, "tokens_padded": 53580800, "examples": 1868800}
+{"type": "loss", "phase": 1, "step": 7400, "loss": 0.0038983729481697083, "lr": 0.0005, "tokens_nonpad": 37743840, "tokens_padded": 54630400, "examples": 1894400}
+{"type": "loss", "phase": 1, "step": 7500, "loss": 0.0045883461833000185, "lr": 0.0005, "tokens_nonpad": 38409564, "tokens_padded": 55680000, "examples": 1920000}
+{"type": "loss", "phase": 1, "step": 7600, "loss": 0.0044625943899154665, "lr": 0.0005, "tokens_nonpad": 39073986, "tokens_padded": 56729600, "examples": 1945600}
+{"type": "loss", "phase": 1, "step": 7700, "loss": 0.0037895184755325317, "lr": 0.0005, "tokens_nonpad": 39735432, "tokens_padded": 57779200, "examples": 1971200}
+{"type": "loss", "phase": 1, "step": 7800, "loss": 0.002553776502609253, "lr": 0.0005, "tokens_nonpad": 40401218, "tokens_padded": 58828800, "examples": 1996800}
+{"type": "loss", "phase": 1, "step": 7900, "loss": 0.0037898796796798704, "lr": 0.0005, "tokens_nonpad": 41064808, "tokens_padded": 59878400, "examples": 2022400}
+{"type": "loss", "phase": 1, "step": 8000, "loss": 0.0039227065443992615, "lr": 0.0005, "tokens_nonpad": 41729664, "tokens_padded": 60928000, "examples": 2048000}
+{"type": "eval", "phase": 1, "step": 8000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 0.98, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 0.99, "15": 1.0, "16": 0.97, "17": 0.99, "18": 0.99, "19": 0.98, "20": 0.94}, "val_group": {"A": 0.9966666666666667, "B": 0.998, "C": 0.974}, "val_token_acc": 0.9946699672741903, "curve_ood": {"22": 0.81, "25": 0.06, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 8100, "loss": 0.002500259876251221, "lr": 0.0005, "tokens_nonpad": 42395426, "tokens_padded": 61977600, "examples": 2073600}
+{"type": "loss", "phase": 1, "step": 8200, "loss": 0.003325956165790558, "lr": 0.0005, "tokens_nonpad": 43061842, "tokens_padded": 63027200, "examples": 2099200}
+{"type": "loss", "phase": 1, "step": 8300, "loss": 0.003704138994216919, "lr": 0.0005, "tokens_nonpad": 43726488, "tokens_padded": 64076800, "examples": 2124800}
+{"type": "loss", "phase": 1, "step": 8400, "loss": 0.0033849868178367614, "lr": 0.0005, "tokens_nonpad": 44391920, "tokens_padded": 65126400, "examples": 2150400}
+{"type": "loss", "phase": 1, "step": 8500, "loss": 0.003302239179611206, "lr": 0.0005, "tokens_nonpad": 45055352, "tokens_padded": 66176000, "examples": 2176000}
+{"type": "loss", "phase": 1, "step": 8600, "loss": 0.002748661935329437, "lr": 0.0005, "tokens_nonpad": 45721546, "tokens_padded": 67225600, "examples": 2201600}
+{"type": "loss", "phase": 1, "step": 8700, "loss": 0.0034376588463783265, "lr": 0.0005, "tokens_nonpad": 46385482, "tokens_padded": 68275200, "examples": 2227200}
+{"type": "loss", "phase": 1, "step": 8800, "loss": 0.002372308671474457, "lr": 0.0005, "tokens_nonpad": 47053346, "tokens_padded": 69324800, "examples": 2252800}
+{"type": "loss", "phase": 1, "step": 8900, "loss": 0.0032969728112220765, "lr": 0.0005, "tokens_nonpad": 47718950, "tokens_padded": 70374400, "examples": 2278400}
+{"type": "loss", "phase": 1, "step": 9000, "loss": 0.0024801921844482423, "lr": 0.0005, "tokens_nonpad": 48384918, "tokens_padded": 71424000, "examples": 2304000}
+{"type": "eval", "phase": 1, "step": 9000, "val": {"5": 0.98, "6": 1.0, "7": 0.97, "8": 0.97, "9": 1.0, "10": 0.99, "11": 0.99, "12": 0.99, "13": 1.0, "14": 0.99, "15": 0.93, "16": 0.98, "17": 1.0, "18": 0.96, "19": 1.0, "20": 0.97}, "val_group": {"A": 0.985, "B": 0.9799999999999999, "C": 0.982}, "val_token_acc": 0.9912691310425685, "curve_ood": {"22": 0.77, "25": 0.03, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 9100, "loss": 0.002817840576171875, "lr": 0.0005, "tokens_nonpad": 49049686, "tokens_padded": 72473600, "examples": 2329600}
+{"type": "loss", "phase": 1, "step": 9200, "loss": 0.003418937623500824, "lr": 0.0005, "tokens_nonpad": 49716348, "tokens_padded": 73523200, "examples": 2355200}
+{"type": "loss", "phase": 1, "step": 9300, "loss": 0.00281817227602005, "lr": 0.0005, "tokens_nonpad": 50380578, "tokens_padded": 74572800, "examples": 2380800}
+{"type": "loss", "phase": 1, "step": 9400, "loss": 0.0030867719650268556, "lr": 0.0005, "tokens_nonpad": 51046082, "tokens_padded": 75622400, "examples": 2406400}
+{"type": "loss", "phase": 1, "step": 9500, "loss": 0.0021438729763031007, "lr": 0.0005, "tokens_nonpad": 51707310, "tokens_padded": 76672000, "examples": 2432000}
+{"type": "loss", "phase": 1, "step": 9600, "loss": 0.0023756884038448334, "lr": 0.0005, "tokens_nonpad": 52372220, "tokens_padded": 77721600, "examples": 2457600}
+{"type": "loss", "phase": 1, "step": 9700, "loss": 0.0030737510323524475, "lr": 0.0005, "tokens_nonpad": 53040178, "tokens_padded": 78771200, "examples": 2483200}
+{"type": "loss", "phase": 1, "step": 9800, "loss": 0.0026191237568855288, "lr": 0.0005, "tokens_nonpad": 53705466, "tokens_padded": 79820800, "examples": 2508800}
+{"type": "loss", "phase": 1, "step": 9900, "loss": 0.002664777934551239, "lr": 0.0005, "tokens_nonpad": 54370796, "tokens_padded": 80870400, "examples": 2534400}
+{"type": "loss", "phase": 1, "step": 10000, "loss": 0.0024953897297382353, "lr": 0.0005, "tokens_nonpad": 55036588, "tokens_padded": 81920000, "examples": 2560000}
+{"type": "eval", "phase": 1, "step": 10000, "val": {"5": 1.0, "6": 0.99, "7": 1.0, "8": 1.0, "9": 1.0, "10": 0.99, "11": 1.0, "12": 1.0, "13": 0.99, "14": 1.0, "15": 0.99, "16": 1.0, "17": 1.0, "18": 0.98, "19": 1.0, "20": 0.97}, "val_group": {"A": 0.9966666666666667, "B": 0.9960000000000001, "C": 0.99}, "val_token_acc": 0.9967751068376068, "curve_ood": {"22": 0.94, "25": 0.17, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 10100, "loss": 0.002634866237640381, "lr": 0.0005, "tokens_nonpad": 55702194, "tokens_padded": 82969600, "examples": 2585600}
+{"type": "loss", "phase": 1, "step": 10200, "loss": 0.0026109591126441956, "lr": 0.0005, "tokens_nonpad": 56369382, "tokens_padded": 84019200, "examples": 2611200}
+{"type": "loss", "phase": 1, "step": 10300, "loss": 0.0020542293787002563, "lr": 0.0005, "tokens_nonpad": 57035622, "tokens_padded": 85068800, "examples": 2636800}
+{"type": "loss", "phase": 1, "step": 10400, "loss": 0.0024596820771694184, "lr": 0.0005, "tokens_nonpad": 57698224, "tokens_padded": 86118400, "examples": 2662400}
+{"type": "loss", "phase": 1, "step": 10500, "loss": 0.0019665949046611788, "lr": 0.0005, "tokens_nonpad": 58362574, "tokens_padded": 87168000, "examples": 2688000}
+{"type": "loss", "phase": 1, "step": 10600, "loss": 0.0029717838764190675, "lr": 0.0005, "tokens_nonpad": 59025654, "tokens_padded": 88217600, "examples": 2713600}
+{"type": "loss", "phase": 1, "step": 10700, "loss": 0.002558882236480713, "lr": 0.0005, "tokens_nonpad": 59689352, "tokens_padded": 89267200, "examples": 2739200}
+{"type": "loss", "phase": 1, "step": 10800, "loss": 0.002392268925905228, "lr": 0.0005, "tokens_nonpad": 60355060, "tokens_padded": 90316800, "examples": 2764800}
+{"type": "loss", "phase": 1, "step": 10900, "loss": 0.0019224268198013306, "lr": 0.0005, "tokens_nonpad": 61023414, "tokens_padded": 91366400, "examples": 2790400}
+{"type": "loss", "phase": 1, "step": 11000, "loss": 0.0026024061441421507, "lr": 0.0005, "tokens_nonpad": 61688718, "tokens_padded": 92416000, "examples": 2816000}
+{"type": "eval", "phase": 1, "step": 11000, "val": {"5": 1.0, "6": 1.0, "7": 0.99, "8": 0.99, "9": 0.99, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 0.99, "16": 0.99, "17": 0.99, "18": 0.99, "19": 0.99, "20": 0.97}, "val_group": {"A": 0.9950000000000001, "B": 0.998, "C": 0.986}, "val_token_acc": 0.9967192832725195, "curve_ood": {"22": 0.92, "25": 0.28, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 11100, "loss": 0.0016441278159618378, "lr": 0.0005, "tokens_nonpad": 62354412, "tokens_padded": 93465600, "examples": 2841600}
+{"type": "loss", "phase": 1, "step": 11200, "loss": 0.0025960367918014524, "lr": 0.0005, "tokens_nonpad": 63021114, "tokens_padded": 94515200, "examples": 2867200}
+{"type": "loss", "phase": 1, "step": 11300, "loss": 0.0024703362584114073, "lr": 0.0005, "tokens_nonpad": 63684834, "tokens_padded": 95564800, "examples": 2892800}
+{"type": "loss", "phase": 1, "step": 11400, "loss": 0.0020505718886852263, "lr": 0.0005, "tokens_nonpad": 64350550, "tokens_padded": 96614400, "examples": 2918400}
+{"type": "loss", "phase": 1, "step": 11500, "loss": 0.0020485465228557587, "lr": 0.0005, "tokens_nonpad": 65017230, "tokens_padded": 97664000, "examples": 2944000}
+{"type": "loss", "phase": 1, "step": 11600, "loss": 0.0016807281970977782, "lr": 0.0005, "tokens_nonpad": 65683214, "tokens_padded": 98713600, "examples": 2969600}
+{"type": "loss", "phase": 1, "step": 11700, "loss": 0.0022149465978145598, "lr": 0.0005, "tokens_nonpad": 66347680, "tokens_padded": 99763200, "examples": 2995200}
+{"type": "loss", "phase": 1, "step": 11800, "loss": 0.002213304191827774, "lr": 0.0005, "tokens_nonpad": 67011596, "tokens_padded": 100812800, "examples": 3020800}
+{"type": "loss", "phase": 1, "step": 11900, "loss": 0.0018549005687236786, "lr": 0.0005, "tokens_nonpad": 67675296, "tokens_padded": 101862400, "examples": 3046400}
+{"type": "loss", "phase": 1, "step": 12000, "loss": 0.001897675096988678, "lr": 0.0005, "tokens_nonpad": 68341508, "tokens_padded": 102912000, "examples": 3072000}
+{"type": "eval", "phase": 1, "step": 12000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 0.99, "9": 0.99, "10": 0.99, "11": 1.0, "12": 1.0, "13": 0.99, "14": 0.99, "15": 0.99, "16": 1.0, "17": 1.0, "18": 1.0, "19": 0.99, "20": 0.99}, "val_group": {"A": 0.9950000000000001, "B": 0.9940000000000001, "C": 0.9960000000000001}, "val_token_acc": 0.9975170849800783, "curve_ood": {"22": 0.86, "25": 0.09, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 12100, "loss": 0.002115815281867981, "lr": 0.0005, "tokens_nonpad": 69007400, "tokens_padded": 103961600, "examples": 3097600}
+{"type": "loss", "phase": 1, "step": 12200, "loss": 0.0018015779554843903, "lr": 0.0005, "tokens_nonpad": 69672974, "tokens_padded": 105011200, "examples": 3123200}
+{"type": "loss", "phase": 1, "step": 12300, "loss": 0.001452007442712784, "lr": 0.0005, "tokens_nonpad": 70336378, "tokens_padded": 106060800, "examples": 3148800}
+{"type": "loss", "phase": 1, "step": 12400, "loss": 0.0021232324838638306, "lr": 0.0005, "tokens_nonpad": 71000814, "tokens_padded": 107110400, "examples": 3174400}
+{"type": "loss", "phase": 1, "step": 12500, "loss": 0.002026371508836746, "lr": 0.0005, "tokens_nonpad": 71664676, "tokens_padded": 108160000, "examples": 3200000}
+{"type": "loss", "phase": 1, "step": 12600, "loss": 0.0022486159205436706, "lr": 0.0005, "tokens_nonpad": 72327220, "tokens_padded": 109209600, "examples": 3225600}
+{"type": "loss", "phase": 1, "step": 12700, "loss": 0.0022905904054641726, "lr": 0.0005, "tokens_nonpad": 72993118, "tokens_padded": 110259200, "examples": 3251200}
+{"type": "loss", "phase": 1, "step": 12800, "loss": 0.0016409434378147126, "lr": 0.0005, "tokens_nonpad": 73657376, "tokens_padded": 111308800, "examples": 3276800}
+{"type": "loss", "phase": 1, "step": 12900, "loss": 0.0018118563294410705, "lr": 0.0005, "tokens_nonpad": 74321630, "tokens_padded": 112358400, "examples": 3302400}
+{"type": "loss", "phase": 1, "step": 13000, "loss": 0.0017603017389774323, "lr": 0.0005, "tokens_nonpad": 74986430, "tokens_padded": 113408000, "examples": 3328000}
+{"type": "eval", "phase": 1, "step": 13000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 0.99, "16": 1.0, "17": 0.99, "18": 0.97, "19": 1.0, "20": 0.99}, "val_group": {"A": 1.0, "B": 0.998, "C": 0.99}, "val_token_acc": 0.9980122549019608, "curve_ood": {"22": 0.98, "25": 0.28, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 13100, "loss": 0.002020397186279297, "lr": 0.0005, "tokens_nonpad": 75650786, "tokens_padded": 114457600, "examples": 3353600}
+{"type": "loss", "phase": 1, "step": 13200, "loss": 0.0017003022134304047, "lr": 0.0005, "tokens_nonpad": 76316156, "tokens_padded": 115507200, "examples": 3379200}
+{"type": "loss", "phase": 1, "step": 13300, "loss": 0.0018434035778045654, "lr": 0.0005, "tokens_nonpad": 76980996, "tokens_padded": 116556800, "examples": 3404800}
+{"type": "loss", "phase": 1, "step": 13400, "loss": 0.0020198117196559904, "lr": 0.0005, "tokens_nonpad": 77648278, "tokens_padded": 117606400, "examples": 3430400}
+{"type": "loss", "phase": 1, "step": 13500, "loss": 0.0018083260953426362, "lr": 0.0005, "tokens_nonpad": 78314254, "tokens_padded": 118656000, "examples": 3456000}
+{"type": "loss", "phase": 1, "step": 13600, "loss": 0.0017884308099746704, "lr": 0.0005, "tokens_nonpad": 78978524, "tokens_padded": 119705600, "examples": 3481600}
+{"type": "loss", "phase": 1, "step": 13700, "loss": 0.0020089027285575866, "lr": 0.0005, "tokens_nonpad": 79643580, "tokens_padded": 120755200, "examples": 3507200}
+{"type": "loss", "phase": 1, "step": 13800, "loss": 0.0019963720440864564, "lr": 0.0005, "tokens_nonpad": 80310940, "tokens_padded": 121804800, "examples": 3532800}
+{"type": "loss", "phase": 1, "step": 13900, "loss": 0.0013977351784706115, "lr": 0.0005, "tokens_nonpad": 80978174, "tokens_padded": 122854400, "examples": 3558400}
+{"type": "loss", "phase": 1, "step": 14000, "loss": 0.002083537131547928, "lr": 0.0005, "tokens_nonpad": 81644922, "tokens_padded": 123904000, "examples": 3584000}
+{"type": "eval", "phase": 1, "step": 14000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 0.96, "11": 0.98, "12": 1.0, "13": 0.99, "14": 1.0, "15": 0.99, "16": 1.0, "17": 0.96, "18": 0.98, "19": 0.99, "20": 0.98}, "val_group": {"A": 0.9933333333333333, "B": 0.992, "C": 0.982}, "val_token_acc": 0.9937788670522804, "curve_ood": {"22": 0.96, "25": 0.18, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 14100, "loss": 0.0011844673752784728, "lr": 0.0005, "tokens_nonpad": 82311436, "tokens_padded": 124953600, "examples": 3609600}
+{"type": "loss", "phase": 1, "step": 14200, "loss": 0.0014332477748394013, "lr": 0.0005, "tokens_nonpad": 82977270, "tokens_padded": 126003200, "examples": 3635200}
+{"type": "loss", "phase": 1, "step": 14300, "loss": 0.0018080267310142516, "lr": 0.0005, "tokens_nonpad": 83643368, "tokens_padded": 127052800, "examples": 3660800}
+{"type": "loss", "phase": 1, "step": 14400, "loss": 0.00152929350733757, "lr": 0.0005, "tokens_nonpad": 84309356, "tokens_padded": 128102400, "examples": 3686400}
+{"type": "loss", "phase": 1, "step": 14500, "loss": 0.0012654630839824676, "lr": 0.0005, "tokens_nonpad": 84976136, "tokens_padded": 129152000, "examples": 3712000}
+{"type": "loss", "phase": 1, "step": 14600, "loss": 0.0024382494390010833, "lr": 0.0005, "tokens_nonpad": 85641042, "tokens_padded": 130201600, "examples": 3737600}
+{"type": "loss", "phase": 1, "step": 14700, "loss": 0.0008276402950286865, "lr": 0.0005, "tokens_nonpad": 86306886, "tokens_padded": 131251200, "examples": 3763200}
+{"type": "loss", "phase": 1, "step": 14800, "loss": 0.0018430104851722717, "lr": 0.0005, "tokens_nonpad": 86973792, "tokens_padded": 132300800, "examples": 3788800}
+{"type": "loss", "phase": 1, "step": 14900, "loss": 0.0016692867875099182, "lr": 0.0005, "tokens_nonpad": 87637402, "tokens_padded": 133350400, "examples": 3814400}
+{"type": "loss", "phase": 1, "step": 15000, "loss": 0.0009027226269245148, "lr": 0.0005, "tokens_nonpad": 88304728, "tokens_padded": 134400000, "examples": 3840000}
+{"type": "eval", "phase": 1, "step": 15000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 0.99, "11": 1.0, "12": 1.0, "13": 1.0, "14": 0.99, "15": 1.0, "16": 1.0, "17": 1.0, "18": 1.0, "19": 0.99, "20": 1.0}, "val_group": {"A": 0.9983333333333334, "B": 0.998, "C": 0.998}, "val_token_acc": 0.9989041353383459, "curve_ood": {"22": 0.99, "25": 0.39, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 15100, "loss": 0.001486283391714096, "lr": 0.0005, "tokens_nonpad": 88972158, "tokens_padded": 135449600, "examples": 3865600}
+{"type": "loss", "phase": 1, "step": 15200, "loss": 0.0010910621285438538, "lr": 0.0005, "tokens_nonpad": 89638654, "tokens_padded": 136499200, "examples": 3891200}
+{"type": "loss", "phase": 1, "step": 15300, "loss": 0.001471025049686432, "lr": 0.0005, "tokens_nonpad": 90302326, "tokens_padded": 137548800, "examples": 3916800}
+{"type": "loss", "phase": 1, "step": 15400, "loss": 0.001183529645204544, "lr": 0.0005, "tokens_nonpad": 90966430, "tokens_padded": 138598400, "examples": 3942400}
+{"type": "loss", "phase": 1, "step": 15500, "loss": 0.0010670612752437592, "lr": 0.0005, "tokens_nonpad": 91632074, "tokens_padded": 139648000, "examples": 3968000}
+{"type": "loss", "phase": 1, "step": 15600, "loss": 0.0010254589468240737, "lr": 0.0005, "tokens_nonpad": 92299066, "tokens_padded": 140697600, "examples": 3993600}
+{"type": "loss", "phase": 1, "step": 15700, "loss": 0.001884644329547882, "lr": 0.0005, "tokens_nonpad": 92965522, "tokens_padded": 141747200, "examples": 4019200}
+{"type": "loss", "phase": 1, "step": 15800, "loss": 0.001294141113758087, "lr": 0.0005, "tokens_nonpad": 93631028, "tokens_padded": 142796800, "examples": 4044800}
+{"type": "loss", "phase": 1, "step": 15900, "loss": 0.0011633478850126267, "lr": 0.0005, "tokens_nonpad": 94296194, "tokens_padded": 143846400, "examples": 4070400}
+{"type": "loss", "phase": 1, "step": 16000, "loss": 0.001638990342617035, "lr": 0.0005, "tokens_nonpad": 94962666, "tokens_padded": 144896000, "examples": 4096000}
+{"type": "eval", "phase": 1, "step": 16000, "val": {"5": 1.0, "6": 0.99, "7": 1.0, "8": 1.0, "9": 1.0, "10": 0.99, "11": 1.0, "12": 0.99, "13": 0.99, "14": 1.0, "15": 1.0, "16": 0.98, "17": 1.0, "18": 0.96, "19": 0.96, "20": 0.98}, "val_group": {"A": 0.9966666666666667, "B": 0.9960000000000001, "C": 0.976}, "val_token_acc": 0.9969515154071075, "curve_ood": {"22": 0.95, "25": 0.64, "30": 0.01}}
+{"type": "loss", "phase": 1, "step": 16100, "loss": 0.001312437504529953, "lr": 0.0005, "tokens_nonpad": 95629230, "tokens_padded": 145945600, "examples": 4121600}
+{"type": "loss", "phase": 1, "step": 16200, "loss": 0.0012496166676282882, "lr": 0.0005, "tokens_nonpad": 96292504, "tokens_padded": 146995200, "examples": 4147200}
+{"type": "loss", "phase": 1, "step": 16300, "loss": 0.0009262927621603012, "lr": 0.0005, "tokens_nonpad": 96958534, "tokens_padded": 148044800, "examples": 4172800}
+{"type": "loss", "phase": 1, "step": 16400, "loss": 0.0014511997997760772, "lr": 0.0005, "tokens_nonpad": 97625158, "tokens_padded": 149094400, "examples": 4198400}
+{"type": "loss", "phase": 1, "step": 16500, "loss": 0.0013751305639743804, "lr": 0.0005, "tokens_nonpad": 98290488, "tokens_padded": 150144000, "examples": 4224000}
+{"type": "loss", "phase": 1, "step": 16600, "loss": 0.0009881611913442612, "lr": 0.0005, "tokens_nonpad": 98956226, "tokens_padded": 151193600, "examples": 4249600}
+{"type": "loss", "phase": 1, "step": 16700, "loss": 0.0018491137027740478, "lr": 0.0005, "tokens_nonpad": 99621176, "tokens_padded": 152243200, "examples": 4275200}
+{"type": "loss", "phase": 1, "step": 16800, "loss": 0.0018783274292945862, "lr": 0.0005, "tokens_nonpad": 100287854, "tokens_padded": 153292800, "examples": 4300800}
+{"type": "loss", "phase": 1, "step": 16900, "loss": 0.000912204384803772, "lr": 0.0005, "tokens_nonpad": 100956268, "tokens_padded": 154342400, "examples": 4326400}
+{"type": "loss", "phase": 1, "step": 17000, "loss": 0.0020373961329460144, "lr": 0.0005, "tokens_nonpad": 101622450, "tokens_padded": 155392000, "examples": 4352000}
+{"type": "eval", "phase": 1, "step": 17000, "val": {"5": 1.0, "6": 0.99, "7": 1.0, "8": 0.98, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 0.99, "16": 1.0, "17": 1.0, "18": 0.99, "19": 0.98, "20": 0.99}, "val_group": {"A": 0.9950000000000001, "B": 0.998, "C": 0.992}, "val_token_acc": 0.996923062865497, "curve_ood": {"22": 0.96, "25": 0.7, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 17100, "loss": 0.0012969069182872772, "lr": 0.0005, "tokens_nonpad": 102289982, "tokens_padded": 156441600, "examples": 4377600}
+{"type": "loss", "phase": 1, "step": 17200, "loss": 0.001212531328201294, "lr": 0.0005, "tokens_nonpad": 102954174, "tokens_padded": 157491200, "examples": 4403200}
+{"type": "loss", "phase": 1, "step": 17300, "loss": 0.0010161852836608886, "lr": 0.0005, "tokens_nonpad": 103617414, "tokens_padded": 158540800, "examples": 4428800}
+{"type": "loss", "phase": 1, "step": 17400, "loss": 0.0012865230441093446, "lr": 0.0005, "tokens_nonpad": 104283770, "tokens_padded": 159590400, "examples": 4454400}
+{"type": "loss", "phase": 1, "step": 17500, "loss": 0.0008113983273506164, "lr": 0.0005, "tokens_nonpad": 104951026, "tokens_padded": 160640000, "examples": 4480000}
+{"type": "loss", "phase": 1, "step": 17600, "loss": 0.0017399780452251434, "lr": 0.0005, "tokens_nonpad": 105618690, "tokens_padded": 161689600, "examples": 4505600}
+{"type": "loss", "phase": 1, "step": 17700, "loss": 0.0012108146399259568, "lr": 0.0005, "tokens_nonpad": 106282144, "tokens_padded": 162739200, "examples": 4531200}
+{"type": "loss", "phase": 1, "step": 17800, "loss": 0.0012873707711696626, "lr": 0.0005, "tokens_nonpad": 106947194, "tokens_padded": 163788800, "examples": 4556800}
+{"type": "loss", "phase": 1, "step": 17900, "loss": 0.000772198885679245, "lr": 0.0005, "tokens_nonpad": 107616652, "tokens_padded": 164838400, "examples": 4582400}
+{"type": "loss", "phase": 1, "step": 18000, "loss": 0.0013208208978176116, "lr": 0.0005, "tokens_nonpad": 108282006, "tokens_padded": 165888000, "examples": 4608000}
+{"type": "eval", "phase": 1, "step": 18000, "val": {"5": 0.99, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 0.99, "11": 0.97, "12": 0.98, "13": 0.98, "14": 1.0, "15": 1.0, "16": 1.0, "17": 0.99, "18": 0.99, "19": 0.98, "20": 0.99}, "val_group": {"A": 0.9966666666666667, "B": 0.986, "C": 0.99}, "val_token_acc": 0.9967341403436605, "curve_ood": {"22": 0.99, "25": 0.56, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 18100, "loss": 0.0009469988942146301, "lr": 0.0005, "tokens_nonpad": 108947772, "tokens_padded": 166937600, "examples": 4633600}
+{"type": "loss", "phase": 1, "step": 18200, "loss": 0.0009038616716861724, "lr": 0.0005, "tokens_nonpad": 109612236, "tokens_padded": 167987200, "examples": 4659200}
+{"type": "loss", "phase": 1, "step": 18300, "loss": 0.0014384430646896362, "lr": 0.0005, "tokens_nonpad": 110281456, "tokens_padded": 169036800, "examples": 4684800}
+{"type": "loss", "phase": 1, "step": 18400, "loss": 0.001082635521888733, "lr": 0.0005, "tokens_nonpad": 110949658, "tokens_padded": 170086400, "examples": 4710400}
+{"type": "loss", "phase": 1, "step": 18500, "loss": 0.0012651960551738738, "lr": 0.0005, "tokens_nonpad": 111616874, "tokens_padded": 171136000, "examples": 4736000}
+{"type": "loss", "phase": 1, "step": 18600, "loss": 0.001121012344956398, "lr": 0.0005, "tokens_nonpad": 112283956, "tokens_padded": 172185600, "examples": 4761600}
+{"type": "loss", "phase": 1, "step": 18700, "loss": 0.0015102416276931764, "lr": 0.0005, "tokens_nonpad": 112950274, "tokens_padded": 173235200, "examples": 4787200}
+{"type": "loss", "phase": 1, "step": 18800, "loss": 0.0009446568787097931, "lr": 0.0005, "tokens_nonpad": 113613830, "tokens_padded": 174284800, "examples": 4812800}
+{"type": "loss", "phase": 1, "step": 18900, "loss": 0.0010527947545051575, "lr": 0.0005, "tokens_nonpad": 114277848, "tokens_padded": 175334400, "examples": 4838400}
+{"type": "loss", "phase": 1, "step": 19000, "loss": 0.0008456555008888245, "lr": 0.0005, "tokens_nonpad": 114942552, "tokens_padded": 176384000, "examples": 4864000}
+{"type": "eval", "phase": 1, "step": 19000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 0.98, "16": 0.96, "17": 0.99, "18": 0.97, "19": 0.99, "20": 0.96}, "val_group": {"A": 1.0, "B": 0.9960000000000001, "C": 0.974}, "val_token_acc": 0.9958232149767803, "curve_ood": {"22": 0.9, "25": 0.15, "30": 0.0}}
+{"type": "loss", "phase": 1, "step": 19100, "loss": 0.001805446594953537, "lr": 0.0005, "tokens_nonpad": 115606434, "tokens_padded": 177433600, "examples": 4889600}
+{"type": "loss", "phase": 1, "step": 19200, "loss": 0.0012525373697280884, "lr": 0.0005, "tokens_nonpad": 116272570, "tokens_padded": 178483200, "examples": 4915200}
+{"type": "loss", "phase": 1, "step": 19300, "loss": 0.0008311431109905243, "lr": 0.0005, "tokens_nonpad": 116939182, "tokens_padded": 179532800, "examples": 4940800}
+{"type": "loss", "phase": 1, "step": 19400, "loss": 0.0008285454660654068, "lr": 0.0005, "tokens_nonpad": 117604586, "tokens_padded": 180582400, "examples": 4966400}
+{"type": "loss", "phase": 1, "step": 19500, "loss": 0.0014236369729042054, "lr": 0.0005, "tokens_nonpad": 118271298, "tokens_padded": 181632000, "examples": 4992000}
+{"type": "loss", "phase": 1, "step": 19600, "loss": 0.0014487141370773315, "lr": 0.0005, "tokens_nonpad": 118938664, "tokens_padded": 182681600, "examples": 5017600}
+{"type": "loss", "phase": 1, "step": 19700, "loss": 0.0005704237520694732, "lr": 0.0005, "tokens_nonpad": 119605152, "tokens_padded": 183731200, "examples": 5043200}
+{"type": "loss", "phase": 1, "step": 19800, "loss": 0.001020931527018547, "lr": 0.0005, "tokens_nonpad": 120271590, "tokens_padded": 184780800, "examples": 5068800}
+{"type": "loss", "phase": 1, "step": 19900, "loss": 0.0006818191707134247, "lr": 0.0005, "tokens_nonpad": 120935742, "tokens_padded": 185830400, "examples": 5094400}
+{"type": "loss", "phase": 1, "step": 20000, "loss": 0.0011211466789245606, "lr": 0.0005, "tokens_nonpad": 121599982, "tokens_padded": 186880000, "examples": 5120000}
+{"type": "eval", "phase": 1, "step": 20000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 0.99, "9": 0.99, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 0.99, "15": 1.0, "16": 1.0, "17": 1.0, "18": 0.98, "19": 1.0, "20": 1.0}, "val_group": {"A": 0.9966666666666667, "B": 0.998, "C": 0.9960000000000001}, "val_token_acc": 0.9986433531746032, "curve_ood": {"22": 0.99, "25": 0.57, "30": 0.0}}
+{"type": "eval", "phase": 2, "step": 0, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 0.99, "9": 0.99, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 0.99, "15": 1.0, "16": 1.0, "17": 1.0, "18": 0.98, "19": 1.0, "20": 1.0}, "val_group": {"A": 0.9966666666666667, "B": 0.998, "C": 0.9960000000000001}, "val_token_acc": 0.9986433531746032, "curve_ood": {"22": 0.99, "25": 0.57, "30": 0.0}}
+{"type": "loss", "phase": 2, "step": 100, "loss": 0.0009720294177532196, "lr": 0.0005, "tokens_nonpad": 667772, "tokens_padded": 1049600, "examples": 25600}
+{"type": "loss", "phase": 2, "step": 200, "loss": 0.0011266934126615525, "lr": 0.0005, "tokens_nonpad": 1333588, "tokens_padded": 2099200, "examples": 51200}
+{"type": "loss", "phase": 2, "step": 300, "loss": 0.0008439124375581741, "lr": 0.0005, "tokens_nonpad": 1997004, "tokens_padded": 3148800, "examples": 76800}
+{"type": "loss", "phase": 2, "step": 400, "loss": 0.0011403996497392655, "lr": 0.0005, "tokens_nonpad": 2662412, "tokens_padded": 4198400, "examples": 102400}
+{"type": "loss", "phase": 2, "step": 500, "loss": 0.0008952749520540238, "lr": 0.0005, "tokens_nonpad": 3328812, "tokens_padded": 5248000, "examples": 128000}
+{"type": "loss", "phase": 2, "step": 600, "loss": 0.001018836572766304, "lr": 0.0005, "tokens_nonpad": 3994388, "tokens_padded": 6297600, "examples": 153600}
+{"type": "loss", "phase": 2, "step": 700, "loss": 0.0012858954071998596, "lr": 0.0005, "tokens_nonpad": 4660580, "tokens_padded": 7347200, "examples": 179200}
+{"type": "loss", "phase": 2, "step": 800, "loss": 0.0007737410068511963, "lr": 0.0005, "tokens_nonpad": 5327158, "tokens_padded": 8396800, "examples": 204800}
+{"type": "loss", "phase": 2, "step": 900, "loss": 0.0010580536723136902, "lr": 0.0005, "tokens_nonpad": 5995436, "tokens_padded": 9446400, "examples": 230400}
+{"type": "loss", "phase": 2, "step": 1000, "loss": 0.0010197988152503966, "lr": 0.0005, "tokens_nonpad": 6658694, "tokens_padded": 10496000, "examples": 256000}
+{"type": "eval", "phase": 2, "step": 1000, "val": {"5": 1.0, "6": 1.0, "7": 0.99, "8": 1.0, "9": 0.99, "10": 1.0, "11": 1.0, "12": 1.0, "13": 0.98, "14": 1.0, "15": 1.0, "16": 1.0, "17": 0.98, "18": 0.99, "19": 0.99, "20": 0.99}, "val_group": {"A": 0.9966666666666667, "B": 0.9960000000000001, "C": 0.99}, "val_token_acc": 0.996673251874974, "curve_ood": {"22": 0.95, "25": 0.41, "30": 0.0}}
+{"type": "loss", "phase": 2, "step": 1100, "loss": 0.0011738802492618561, "lr": 0.0005, "tokens_nonpad": 7325604, "tokens_padded": 11545600, "examples": 281600}
+{"type": "loss", "phase": 2, "step": 1200, "loss": 0.0009047035872936248, "lr": 0.0005, "tokens_nonpad": 7992320, "tokens_padded": 12595200, "examples": 307200}
+{"type": "loss", "phase": 2, "step": 1300, "loss": 0.0010540147125720977, "lr": 0.0005, "tokens_nonpad": 8655964, "tokens_padded": 13644800, "examples": 332800}
+{"type": "loss", "phase": 2, "step": 1400, "loss": 0.0008420565724372864, "lr": 0.0005, "tokens_nonpad": 9321732, "tokens_padded": 14694400, "examples": 358400}
+{"type": "loss", "phase": 2, "step": 1500, "loss": 0.0010642946511507034, "lr": 0.0005, "tokens_nonpad": 9989090, "tokens_padded": 15744000, "examples": 384000}
+{"type": "loss", "phase": 2, "step": 1600, "loss": 0.000745542049407959, "lr": 0.0005, "tokens_nonpad": 10655650, "tokens_padded": 16793600, "examples": 409600}
+{"type": "loss", "phase": 2, "step": 1700, "loss": 0.0010530430823564529, "lr": 0.0005, "tokens_nonpad": 11321322, "tokens_padded": 17843200, "examples": 435200}
+{"type": "loss", "phase": 2, "step": 1800, "loss": 0.0006901282072067261, "lr": 0.0005, "tokens_nonpad": 11987216, "tokens_padded": 18892800, "examples": 460800}
+{"type": "loss", "phase": 2, "step": 1900, "loss": 0.0009488537162542344, "lr": 0.0005, "tokens_nonpad": 12653738, "tokens_padded": 19942400, "examples": 486400}
+{"type": "loss", "phase": 2, "step": 2000, "loss": 0.0009884608536958695, "lr": 0.0005, "tokens_nonpad": 13318172, "tokens_padded": 20992000, "examples": 512000}
+{"type": "eval", "phase": 2, "step": 2000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 0.99, "11": 1.0, "12": 0.97, "13": 0.99, "14": 1.0, "15": 1.0, "16": 0.99, "17": 1.0, "18": 1.0, "19": 0.99, "20": 0.97}, "val_group": {"A": 0.9983333333333334, "B": 0.992, "C": 0.99}, "val_token_acc": 0.9971941000337381, "curve_ood": {"22": 0.96, "25": 0.79, "30": 0.02}}
+{"type": "loss", "phase": 2, "step": 2100, "loss": 0.0009050381183624268, "lr": 0.0005, "tokens_nonpad": 13985028, "tokens_padded": 22041600, "examples": 537600}
+{"type": "loss", "phase": 2, "step": 2200, "loss": 0.0005036946013569832, "lr": 0.0005, "tokens_nonpad": 14652444, "tokens_padded": 23091200, "examples": 563200}
+{"type": "loss", "phase": 2, "step": 2300, "loss": 0.0009888046979904174, "lr": 0.0005, "tokens_nonpad": 15318234, "tokens_padded": 24140800, "examples": 588800}
+{"type": "loss", "phase": 2, "step": 2400, "loss": 0.0009489987790584565, "lr": 0.0005, "tokens_nonpad": 15981378, "tokens_padded": 25190400, "examples": 614400}
+{"type": "loss", "phase": 2, "step": 2500, "loss": 0.0011188269406557083, "lr": 0.0005, "tokens_nonpad": 16649260, "tokens_padded": 26240000, "examples": 640000}
+{"type": "loss", "phase": 2, "step": 2600, "loss": 0.0008455497026443481, "lr": 0.0005, "tokens_nonpad": 17314114, "tokens_padded": 27289600, "examples": 665600}
+{"type": "loss", "phase": 2, "step": 2700, "loss": 0.0011804379522800446, "lr": 0.0005, "tokens_nonpad": 17978510, "tokens_padded": 28339200, "examples": 691200}
+{"type": "loss", "phase": 2, "step": 2800, "loss": 0.0009125538915395737, "lr": 0.0005, "tokens_nonpad": 18642962, "tokens_padded": 29388800, "examples": 716800}
+{"type": "loss", "phase": 2, "step": 2900, "loss": 0.0007870154082775116, "lr": 0.0005, "tokens_nonpad": 19311336, "tokens_padded": 30438400, "examples": 742400}
+{"type": "loss", "phase": 2, "step": 3000, "loss": 0.001074996218085289, "lr": 0.0005, "tokens_nonpad": 19977564, "tokens_padded": 31488000, "examples": 768000}
+{"type": "eval", "phase": 2, "step": 3000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 0.99, "13": 0.99, "14": 1.0, "15": 1.0, "16": 0.99, "17": 0.99, "18": 0.99, "19": 0.98, "20": 0.99}, "val_group": {"A": 1.0, "B": 0.9960000000000001, "C": 0.9879999999999999}, "val_token_acc": 0.9978307928392343, "curve_ood": {"22": 0.98, "25": 0.69, "30": 0.04}}
+{"type": "loss", "phase": 2, "step": 3100, "loss": 0.0008721110224723816, "lr": 0.0005, "tokens_nonpad": 20644042, "tokens_padded": 32537600, "examples": 793600}
+{"type": "loss", "phase": 2, "step": 3200, "loss": 0.0004044797271490097, "lr": 0.0005, "tokens_nonpad": 21309502, "tokens_padded": 33587200, "examples": 819200}
+{"type": "loss", "phase": 2, "step": 3300, "loss": 0.0011971786618232727, "lr": 0.0005, "tokens_nonpad": 21973442, "tokens_padded": 34636800, "examples": 844800}
+{"type": "loss", "phase": 2, "step": 3400, "loss": 0.0008936256915330887, "lr": 0.0005, "tokens_nonpad": 22640068, "tokens_padded": 35686400, "examples": 870400}
+{"type": "loss", "phase": 2, "step": 3500, "loss": 0.0009933516383171081, "lr": 0.0005, "tokens_nonpad": 23306442, "tokens_padded": 36736000, "examples": 896000}
+{"type": "loss", "phase": 2, "step": 3600, "loss": 0.000728473961353302, "lr": 0.0005, "tokens_nonpad": 23972726, "tokens_padded": 37785600, "examples": 921600}
+{"type": "loss", "phase": 2, "step": 3700, "loss": 0.0009245108813047409, "lr": 0.0005, "tokens_nonpad": 24641226, "tokens_padded": 38835200, "examples": 947200}
+{"type": "loss", "phase": 2, "step": 3800, "loss": 0.0006948494166135788, "lr": 0.0005, "tokens_nonpad": 25304196, "tokens_padded": 39884800, "examples": 972800}
+{"type": "loss", "phase": 2, "step": 3900, "loss": 0.0006990108639001846, "lr": 0.0005, "tokens_nonpad": 25967634, "tokens_padded": 40934400, "examples": 998400}
+{"type": "loss", "phase": 2, "step": 4000, "loss": 0.0007151660323143006, "lr": 0.0005, "tokens_nonpad": 26633026, "tokens_padded": 41984000, "examples": 1024000}
+{"type": "eval", "phase": 2, "step": 4000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 1.0, "16": 1.0, "17": 1.0, "18": 1.0, "19": 1.0, "20": 1.0}, "val_group": {"A": 1.0, "B": 1.0, "C": 1.0}, "val_token_acc": 1.0, "curve_ood": {"22": 0.99, "25": 0.73, "30": 0.01}}
+{"type": "loss", "phase": 2, "step": 4100, "loss": 0.00088425412774086, "lr": 0.0005, "tokens_nonpad": 27299224, "tokens_padded": 43033600, "examples": 1049600}
+{"type": "loss", "phase": 2, "step": 4200, "loss": 0.001059463620185852, "lr": 0.0005, "tokens_nonpad": 27965740, "tokens_padded": 44083200, "examples": 1075200}
+{"type": "loss", "phase": 2, "step": 4300, "loss": 0.0007218477874994278, "lr": 0.0005, "tokens_nonpad": 28629158, "tokens_padded": 45132800, "examples": 1100800}
+{"type": "loss", "phase": 2, "step": 4400, "loss": 0.0006453780829906463, "lr": 0.0005, "tokens_nonpad": 29295770, "tokens_padded": 46182400, "examples": 1126400}
+{"type": "loss", "phase": 2, "step": 4500, "loss": 0.0006255394220352173, "lr": 0.0005, "tokens_nonpad": 29959476, "tokens_padded": 47232000, "examples": 1152000}
+{"type": "loss", "phase": 2, "step": 4600, "loss": 0.0011193690448999406, "lr": 0.0005, "tokens_nonpad": 30624200, "tokens_padded": 48281600, "examples": 1177600}
+{"type": "loss", "phase": 2, "step": 4700, "loss": 0.0012205728888511657, "lr": 0.0005, "tokens_nonpad": 31285844, "tokens_padded": 49331200, "examples": 1203200}
+{"type": "loss", "phase": 2, "step": 4800, "loss": 0.00034843195229768755, "lr": 0.0005, "tokens_nonpad": 31952980, "tokens_padded": 50380800, "examples": 1228800}
+{"type": "loss", "phase": 2, "step": 4900, "loss": 0.0006664060056209564, "lr": 0.0005, "tokens_nonpad": 32616946, "tokens_padded": 51430400, "examples": 1254400}
+{"type": "loss", "phase": 2, "step": 5000, "loss": 0.0013380290567874909, "lr": 0.0005, "tokens_nonpad": 33280000, "tokens_padded": 52480000, "examples": 1280000}
+{"type": "eval", "phase": 2, "step": 5000, "val": {"5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 1.0, "16": 0.99, "17": 1.0, "18": 0.99, "19": 0.99, "20": 0.99}, "val_group": {"A": 1.0, "B": 1.0, "C": 0.992}, "val_token_acc": 0.9985836074561404, "curve_ood": {"22": 0.99, "25": 0.63, "30": 0.0}}

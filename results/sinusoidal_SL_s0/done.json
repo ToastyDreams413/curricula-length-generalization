@@ -1,0 +1,116 @@
+{
+  "run_id": "sinusoidal_SL_s0",
+  "schedule": "SL",
+  "pe": "sinusoidal",
+  "seed": 0,
+  "tag": "",
+  "n_params": 1632768,
+  "device": "cuda",
+  "config_hash": "287b96dd0db189a02147d8382dcc81d5bf62c7d123062f1a606bbcf7482b78ef",
+  "experiment_hash": "b27b3fa5e7d86d5d37c8b4f8470c06aad7df2611d9e0ec50051251b4c22e54c3",
+  "phase1_steps": 20000,
+  "tokens_nonpad_phase1": 136536052,
+  "tokens_padded_phase1": 158722560,
+  "examples_phase1": 5120000,
+  "phase2_steps": 5000,
+  "tokens_nonpad_phase2": 33280000,
+  "tokens_padded_phase2": 52480000,
+  "examples_phase2": 1280000,
+  "tokens_nonpad_total": 169816052,
+  "tokens_padded_total": 211202560,
+  "phase1_wall_time_s": 473.62928930000635,
+  "examples_per_length_phase1": {
+    "5": 284416,
+    "6": 284416,
+    "7": 284416,
+    "8": 284416,
+    "9": 284416,
+    "10": 284416,
+    "11": 341351,
+    "12": 341351,
+    "13": 341350,
+    "14": 341350,
+    "15": 341350,
+    "16": 341351,
+    "17": 341351,
+    "18": 341350,
+    "19": 341350,
+    "20": 341350
+  },
+  "final_val_phase1": {
+    "val_group": {
+      "A": 0.0,
+      "B": 0.39,
+      "C": 0.998
+    },
+    "val_token_acc": 0.45064404281756254
+  },
+  "phase2_wall_time_s": 165.1792794999783,
+  "examples_per_length_phase2": {
+    "5": 80000,
+    "6": 80000,
+    "7": 80000,
+    "8": 80000,
+    "9": 80000,
+    "10": 80000,
+    "11": 80000,
+    "12": 80000,
+    "13": 80000,
+    "14": 80000,
+    "15": 80000,
+    "16": 80000,
+    "17": 80000,
+    "18": 80000,
+    "19": 80000,
+    "20": 80000
+  },
+  "final_val_phase2": {
+    "val_group": {
+      "A": 0.9966666666666667,
+      "B": 1.0,
+      "C": 0.998
+    },
+    "val_token_acc": 0.9986614583333333
+  },
+  "overlap": {
+    "phase1": {
+      "5": {
+        "val": 0,
+        "test": 0
+      },
+      "6": {
+        "val": 0,
+        "test": 0
+      },
+      "7": {
+        "val": 0,
+        "test": 0
+      },
+      "8": {
+        "val": 0,
+        "test": 0
+      }
+    },
+    "phase2": {
+      "5": {
+        "val": 0,
+        "test": 0
+      },
+      "6": {
+        "val": 0,
+        "test": 0
+      },
+      "7": {
+        "val": 0,
+        "test": 0
+      },
+      "8": {
+        "val": 0,
+        "test": 0
+      }
+    }
+  },
+  "wall_time_s": 640.4881858999724,
+  "torch_version": "2.5.1+cu121",
+  "python_version": "3.12.1"
+}

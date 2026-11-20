@@ -1,0 +1,14 @@
+# Learning-rate check on R only. Layer on base.yaml:
+#   python -m src.train --config configs/base.yaml --config configs/tune.yaml --set train.lr=0.001 --tag lr0.001
+# id_only: no length above the max training length is ever evaluated (curves, test or rep sets).
+# Choose the LR from the val records in train_log.jsonl (VAL_SEED sets), not from eval_phase1.json
+# (that file decodes the TEST_SEED sets, restricted to lengths <= 20).
+# save_checkpoints: false is a second guard: with no model_phase*.pt, nothing (probes, attention,
+# src.evaluate) can later evaluate a tuning model at OOD lengths. probes/attention also refuse
+# lengths above the max training length on id_only runs.
+phase2:
+  steps: 0
+eval:
+  id_only: true
+  curve_ood_lengths: []
+save_checkpoints: false

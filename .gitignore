@@ -1,0 +1,24 @@
+# Allowlist: everything at the top level is ignored unless re-included below.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/pytest.ini
+!/src/
+!/scripts/
+!/configs/
+!/tests/
+!/docs/
+!/results/
+
+# results: per-run outputs, collected CSVs and the frozen predictions; no checkpoints or logs
+*.pt
+/results/*.log
+/results/sweep_logs/
+/results/STOP_EXTRA_SEEDS
+/results/*/eval_phase*_cli.json
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

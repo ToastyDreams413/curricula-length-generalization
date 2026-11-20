@@ -1,0 +1,18 @@
+# Tiny CPU config for tests and quick checks (about 10-15 s). Layer on base.yaml:
+#   python -m src.train --config configs/base.yaml --config configs/smoke.yaml --out-dir <scratch dir>
+# Still produces every output file, including Phase 2. eval.batch_size < test_per_length, so
+# chunked decoding is exercised.
+model: {d_model: 32, n_heads: 2, d_mlp: 64}
+train: {steps: 40, batch_size: 12, lr: 2.0e-3, warmup_steps: 10, device: cpu, log_every: 10}
+phase2: {steps: 10}
+eval:
+  every: 20
+  val_per_length: 6             # < eval.batch_size: one decode chunk per val length
+  curve_ood_lengths: [22, 25]
+  test_lengths: [5, 12, 20, 22, 25]
+  test_per_length: 16
+  rep_lengths: [10, 20, 30]
+  rep_rs: [2, 5]
+  rep_per_set: 6
+  batch_size: 7
+  n_samples: 3
