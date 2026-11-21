@@ -26,7 +26,7 @@ python scripts/run_extra_seeds.py --grid nope      # NoPE seeds 5-9 (30 runs)
 python scripts/run_all.py --analysis               # probes, tables, figures and paper numbers
 ```
 
-- Each run takes about 12 minutes on an 8 GB laptop GPU (RTX 3070 Ti), about 31 GPU-hours for
+- Each run takes about 15 minutes on an 8 GB laptop GPU (RTX 3070 Ti), about 40 GPU-hours for
   all 160 runs.
 - Finished runs are skipped, so every script can be stopped and restarted.
 - The analysis writes tables and the numbers quoted in the paper to `paper/tables/`, and figures
